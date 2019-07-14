@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+        body{
+        	font-family: arial,helvetica,sans-serif;
+            background-image: linear-gradient(to bottom,#ff00ff 0%,#0000ff 100%);
+        }
+        .nav{
+        	background-image: linear-gradient(to  bottom,#00ffff 0%,#90f9c4 48%,#39f3bb 100%);
+        }
+        td{
+        	text-align: justify;
+        }
+        a{
+        	text-decoration: none;
+        	color: rgba(4,44,7,0.979);
+        }
+        a:hover{
+            color: skyblue;
+        }
+        h2{
+        	text-align: center;
+        	color: rgba(90,90,90);
+        }
+        .row{
+        	display: flex;
+        	justify-content: space-evenly;
+        }
+        input{
+        	padding: 8px;
+        	border: 1px solid gray;
+        	border-radius: 4px;
+        	margin: 8px;
+        	width: 93%;
+        }
+        label{
+        	padding-left: 8px;
+        }
+        .swap img{
+        	position: absolute;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            width: 160px;
+            height: 168px;
+        }
+        .swap .danger{
+        	z-index: 9999;
+        transition: opacity 0.35s linear;
+            cursor: pointer;
+        }
+        .swap:hover>.danger{
+            opacity: 0;
+        }
+        .col-1{
+        	color: rgb(50,50,50);
+        }
+    </style>
+    <mega http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Register     |     Gaurav</title>
+</head>
+<body>
+<table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="160" height="168">
+			<a href="index.html" class="logo">
+				<figure class="swap">
+					<img src="images/danger.svg" class=".danger">
+					<img src="images/skull.svg" class=".skull">
+				</figure>
+			</a>
+		</td>
+		<td>
+			<img src="images/banner.jpg" width="100%" height="158">
+		</td>
+	</tr>
+	<tr class="nav" height="50px">
+		<td>
+			<a name="#top">
+			</a>
+		</td>
+		<td width="25%">
+			<a href="register.html" style="border-bottom: 3px solid rgb(6,116,70); padding-bottom: 3px">Register</a>
+		</td>
+	</tr>
+</table>
+</td>
+</tr>
+</table>
+<div style="font-weight: lighter;">
+	<div>
+		<h2>
+			Create raj's account
+		</h2>
+	</div>
+	<div class="row" width="100%">
+		<div class="col-1">
+			<h3 align="middle"All you need is a account>
+			</h3>
+			<h4 align="middle"Only you need is username and a password: Raj's kingdom>
+			</h4>
+			<div class="icons" style="text-align: center;">
+				<img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x.png">
+				<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+				<img src="https://www.instagram.com/static/images/ico/xxhdpi_launcher.png/99cf3909d459.png" height="48" weidth="48">
+				<img src="https://www.viber.com/app/themes/viber/assets/images/logov2.svg">
+				<img src="https://www.pubg.com/wp-content/uploads/2019/03/pubgcom_img_950.png">
+				<img src="https://res.wx.qq.com/a/wx_fed/wechat-main-page-oversea/res/static/img/1rKlkuOrthp7ZKS09etWhnzqVygE5TJ72pPtOq0ZWjuJr5oq_WmAfeB3JeGjk8NkOrBvDJoiOs4Cb3CjXEsVFR.png">
+				<img src="https://img.icons8.com/ios/50/000000/amazon-filled.png" height="48" width="48">
+				<img src="https://img.icons8.com/color/50/000000/windows-10.png">
+				<img src="https://s.blogsmithmedia.com/www.oath.com/assets-hd74d3bd3d5f33ae7b92f4074325a5145/logos/oath-logo.svg?h=cc2b8f571d2dfc081e756c2bdddf886a">
+</div>
+<h3 align="middle">Rock on!</h3>
+<h4 align="middle">Switch your path</h4>
+<div style="text-align: center;"><img src="images/device.jpg"></div>
+</div>
+<div class="col-2">
+	<form action="#" enctype="multipart/form-data" method="POST">
+		<fieldset style="background-color: rgb(235,232,232); border: 1px solid gainsboro">
+			<label for="name">Name</label><br>
+			<div style="display: flex; justify-content: space-evenly">
+				<div>
+					<input type="text" style="width: 135%; margin-left: -43px" placeholder="First Name" required>
+				</div>
+				<div><input type="text" style="width: 100%" placeholder="Last Name" required>
+				</div>
+			</div>
+			<br>
+			<label for="psw">Create a password</label></br>
+			<input type="password" title="Password must contain 4 character."><br>
+			<label for="confirm"></label><br>
+			<input type="password">
+			<br>
+			<label for="Birthday">Birthday</label><br>
+			<div style="display: flex;">
+				<div>
+					<input type="Number" style="width: 40%" placeholder="Day" title="Day in Number" required>
+				</div>
+				<div>
+					<select style="margin-left: -65%; width: 120%">
+						<option>Month</option>
+						<option>Jan</option>
+						<option>Feb</option>
+						<option>Mar</option>
+						<option>Apr</option>
+						<option>May</option>
+						<option>Jun</option>
+						<option>Jul</option>
+						<option>Aug</option>
+						<option>Sept</option>
+						<option>Oct</option>
+						<option>Nov</option>
+						<option>Dec</option>
+					</select>
+				</div>
+				<div>
+					<input type="Number" placeholder="" ="Year" style="margin-left: -13%" required>
+				</div>
+			</div>
+			<label for="Gender" Gender</label><br>
+				<select required>
+					<option value="default">I'm a</option>
+					<option value="M">Male</option>
+					<option value="F">Female</option>
+					<option value="Other">Other</option>
+				</select>
+				<br>
+				<label>Pnone number</label><br>
+				<input type="number">
+				<br>
+				<label for="E-mail">Current E-mail</label><br>
+				<input type="E-mail" title="Enter E-mail"><br>
+				<label for="checkbox"></label>
+				<input style="width: 34px" type="checkbox" required>I Accept all Terms and Conditions.
+				<br>
+				<input type="submit" style="background  color: #000000; width: 80px; float: right; 20px" value="Next" name="Submit">
+		</fieldset>
+	</form>
+</div>
+</div>
+</div>
+<hr>
+<footer align="center">
+	Copyright &copy; www.gunarajneupane.com.np
+</footer>
+</body>
+</html>
